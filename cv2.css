@@ -1,0 +1,70 @@
+body{
+    background-color: #76CDCD;
+}
+main{
+    height: 300px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    background-color: #4AA3A2;
+}
+.profil{
+     display: flex;
+    width: 950px;
+    align-self: auto;
+    flex-direction: column;
+    background-color: #4AA3A2;
+}
+section img{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+section div{
+    margin-left: 50px;
+    width: 400px;
+}
+.apropos{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: -20px;
+    width: 500px;
+}
+section a{
+    text-decoration: none;
+}
+section a:hover{
+    cursor: pointer;
+}
+.icon{
+    margin-top: -10px;
+}
+.adresse{
+    margin-left: -5px;
+}
+article{
+    display: flex;
+    height: 50px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    
+}
+.html{
+    display: inline;
+    align-content: center;
+
+}article div p{
+    display: inline;
+    
+}
+section ul li{
+    list-style-type: none;
+}
+h2{
+    color: #0B162C;
+}
+span{
+    font-size: large;
+}
